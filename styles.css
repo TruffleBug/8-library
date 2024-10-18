@@ -1,0 +1,67 @@
+.library {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid lightgrey;
+    padding: 8px 6px;
+}
+
+td {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-wrap: wrap;
+}
+
+th {
+    font-size: 1.15rem;
+}
+
+.library th:nth-child(1) {
+    width: 40%;
+}
+
+.library th:nth-child(2) {
+    width: 30%;
+}
+
+.library tr th:nth-child(3),
+.library tr th:nth-child(4),
+.library tr th:nth-child(5) {
+    width: 40px;
+    /* min-width: 40px; */
+    /* width: 10%; */
+    /* max-width: 20px; */
+}
+
+.library tr:first-child {
+    background-color: cadetblue;
+}
+
+button {
+    background-color: rgb(127, 209, 212);
+    border: none;
+    padding: 6px 12px;
+    margin: 6px;
+    border-radius: 6px;
+}
+
+dialog {
+    padding: 36px;
+}
+
+dialog button {
+    width: 110px;
+}
+
+dialog button[type=submit] {
+    font-weight: bold;
+}
+
+form input {
+    margin-bottom: 8px;
+    width: 100%;
+}
